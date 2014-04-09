@@ -24,7 +24,7 @@ $sums=$fDao->getUserSums($user);
     <div class="col-md-4">
         <div class="panel panel-default">
             <!-- Default panel contents -->
-            <div class="panel-heading">Sums information, user: <?php echo $user->getUsername(); ?></div>
+            <div class="panel-heading">Sums information of user: <?php echo $user->getUsername(); ?></div>
             <!-- Table -->
             <table class="table">
                 <tr>

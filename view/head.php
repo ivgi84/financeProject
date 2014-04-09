@@ -48,7 +48,7 @@ else{
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><?php echo $username; ?></a></li>
+                        <li><?php echo $username; ?></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
